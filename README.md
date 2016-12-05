@@ -21,7 +21,7 @@ To evaluate the final model, execute `caffe train --solver test.solver --gpu 0 2
 | AlexNet_cvgj     | **39.9%** (vs. 42.6%)      | **18.1%**  (vs. 19.6%)
 | VGG19_cvgj       | **26.9%** (vs. 28.7%)      | **8.8%**  (vs. 9.9%)
 | ResNet10_cvgj    | **36.1%**    | **14.8%**  |
-| ResNet50_cvgj    | **24.6%** (vs. 24.6%)   | **7.6%** (vs. 7.8%)|
+| ResNet50_cvgj    | **24.6%** (vs. 24.7%)   | **7.6%** (vs. 7.8%)|
 
 
 ## Citation
