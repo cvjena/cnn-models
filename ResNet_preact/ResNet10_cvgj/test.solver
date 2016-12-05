@@ -1,0 +1,15 @@
+test_iter: 5000
+test_interval: 10000
+base_lr: 0.1
+display: 20
+max_iter: 0
+lr_policy: "poly"
+power: 1
+momentum: 0.9
+weight_decay: 0.0001
+snapshot: 5000
+snapshot_prefix: "ft"
+random_seed: 0
+net: "test.prototxt"
+test_initialization: true
+iter_size: 8

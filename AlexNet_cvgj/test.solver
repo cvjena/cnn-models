@@ -1,0 +1,15 @@
+test_iter: 1000
+test_interval: 1000
+base_lr: 0.05
+display: 20
+max_iter: 0
+lr_policy: "poly"
+power: 1
+momentum: 0.9
+weight_decay: 0.0005
+snapshot: 5000
+snapshot_prefix: "alexnet_cvgj"
+random_seed: 0
+net: "test.prototxt"
+test_initialization: true
+iter_size: 2

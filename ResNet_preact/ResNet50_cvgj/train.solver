@@ -1,0 +1,13 @@
+base_lr: 0.1
+display: 20
+max_iter: 320000
+lr_policy: "poly"
+power: 1
+momentum: 0.9
+weight_decay: 0.0001
+snapshot: 5000
+snapshot_prefix: "resnet50_cvgj"
+random_seed: 0
+net: "train.prototxt"
+test_initialization: false
+iter_size: 16

@@ -1,0 +1,15 @@
+test_iter: 5000
+test_interval: 5000
+base_lr: 0.01
+display: 20
+max_iter: 300000
+lr_policy: "poly"
+power: 1
+momentum: 0.9
+weight_decay: 0.0005
+snapshot: 5000
+snapshot_prefix: "vgg19_cvgj"
+random_seed: 0
+net: "train.prototxt"
+test_initialization: false
+iter_size: 16
