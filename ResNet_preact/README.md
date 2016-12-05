@@ -1,7 +1,7 @@
 # Residual Networks Models by CVGJ 
 
 ## Intro
-This folder contains Residual Network (ResNet) [^resnet] models trained on ImageNet by Marcel Simon at the Computer Vision Group Jena (CVGJ) using the Caffe framework. Each subfolder contains a model of different depth. We use the pre-activation variant and mostly followed the FAIR implementation[^fair], which is available for Torch. The generation script was based on a previous implementation of Oscar Beijbom[^beijbom].
+This folder contains Residual Network (ResNet) [1] models trained on ImageNet by Marcel Simon at the Computer Vision Group Jena (CVGJ) using the Caffe framework. Each subfolder contains a model of different depth. We use the pre-activation variant and mostly followed the FAIR implementation [2], which is available for Torch. The generation script was based on a previous implementation of Oscar Beijbom [3].
 
 ## How to use
 **No mean subtraction is required** for the pre-trained models! We use a batch-normalization layer which basically does the same. 
@@ -45,9 +45,7 @@ Please cite the following technical report if our models helped your research:
 The report also contains an overview and analysis of the models shown here.
 
 ## References
-[^resnet]: He, Kaiming, et al. "Deep residual learning for image recognition." arXiv preprint arXiv:1512.03385 (2015).
-
-[^fair]: https://github.com/facebook/fb.resnet.torch
-
-[^beijbom]: https://github.com/beijbom/beijbom_vision_lib
+[1]: He, Kaiming, et al. "Deep residual learning for image recognition." arXiv preprint arXiv:1512.03385 (2015).
+[2]: https://github.com/facebook/fb.resnet.torch
+[3]: https://github.com/beijbom/beijbom_vision_lib
 
