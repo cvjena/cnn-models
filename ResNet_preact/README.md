@@ -1,6 +1,6 @@
 # Residual Networks Models by CVGJ 
 
-## Intro
+## Description
 This folder contains Residual Network (ResNet) [1] models trained on ImageNet by Marcel Simon at the Computer Vision Group Jena (CVGJ) using the Caffe framework. Each subfolder contains a model of different depth. We use the pre-activation variant and mostly followed the FAIR implementation [2], which is available for Torch. The generation script was based on a previous implementation of Oscar Beijbom [3].
 
 ## How to use
@@ -27,7 +27,7 @@ To evaluate the final model, execute `caffe train --solver test.solver --gpu 0 2
 | Model             | Top-1 error  (vs. original) |  Top-5 error  (vs. original) |
 | ------------- |-------------|---------|-------------|---------|
 | ResNet10_cvgj    | **36.1%**    | **14.8%**  |
-| ResNet50_cvgj    | **24.6%** (vs. 24.6%)   | **7.6%** (vs. 7.8%)|
+| ResNet50_cvgj    | **24.6%** (vs. 24.7%)   | **7.6%** (vs. 7.8%)|
 
 
 ## Citation
