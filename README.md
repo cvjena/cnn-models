@@ -25,12 +25,12 @@ To evaluate the final model, execute `caffe train --solver test.solver --gpu 0 2
 
 
 ## Citation
-Please cite the following technical report if our models helped your research:
+Please cite the following [technical report](https://arxiv.org/abs/1612.01452 "ImageNet pre-trained models with batch normalization by Marcel Simon et al on arxiv.") if our models helped your research:
 
 ```
 @article{simon2016cnnmodels,
   Author = {Simon, Marcel and Rodner, Erik and Denzler, Joachim},
-  Journal = {arXiv preprint arXiv:},
+  Journal = {arXiv preprint arXiv:1612.01452},
   Title = {ImageNet pre-trained models with batch normalization},
   Year = {2016}
 }
