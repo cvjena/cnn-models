@@ -24,6 +24,18 @@ To evaluate the final model, execute `caffe train --solver test.solver --gpu 0 2
 | ResNet50_cvgj    | **24.6%** (vs. 24.7%)   | **7.6%** (vs. 7.8%)|
 
 
+## Convergence plots
+
+### AlexNet_cvgj 
+![Convergence plot of AlexNet with batch normalization](AlexNet_cvgj/convergence.png)
+
+### VGG19_cvgj 
+![Convergence plot of AlexNet with batch normalization](VGG19_cvgj/convergence.png)
+
+### ResNet10_cvgj 
+![Convergence plot of AlexNet with batch normalization](ResNet_preact/ResNet10_cvgj/convergence.png)
+
+
 ## Citation
 Please cite the following [technical report](https://arxiv.org/abs/1612.01452 "ImageNet pre-trained models with batch normalization by Marcel Simon et al on arxiv.") if our models helped your research:
 
