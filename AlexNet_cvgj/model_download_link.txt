@@ -1,1 +1,12 @@
-You can get the model at https://drive.google.com/file/d/0B6VgjAr4t_oTQmVXZGVqWFVSYUU/view?usp=sharing
+You can get the model at 
+
+Google
+https://drive.google.com/file/d/0B6VgjAr4t_oTQmVXZGVqWFVSYUU/view?usp=sharing
+
+Friedrich-Schiller-Universität Jena
+https://upload.uni-jena.de/data/58492f883382d6.05749656/alexnet_cvgj_iter_320000.caffemodel
+
+Baidu 
+http://pan.baidu.com/s/1bpKdRbx  (in case the file cannot be found, try to reload the page or open the link several times)
+
+sha256 hash: d907ac9b2b3427367b2d7a8ca9bd697b14a38a95f29c1a52fae06f45db3a6369

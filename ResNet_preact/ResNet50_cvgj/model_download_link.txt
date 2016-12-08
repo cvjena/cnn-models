@@ -1,1 +1,12 @@
-You can get the model at https://drive.google.com/open?id=0B6VgjAr4t_oTTDh2SVJIa2VkZVU
+You can get the model at 
+
+Google
+https://drive.google.com/open?id=0B6VgjAr4t_oTTDh2SVJIa2VkZVU
+
+Friedrich-Schiller-Universität Jena
+https://upload.uni-jena.de/data/5849333d493ba3.69267735/resnet50_cvgj_iter_320000.caffemodel
+
+Baidu 
+http://pan.baidu.com/s/1pLvsTmj  (in case the file cannot be found, try to reload the page or open the link several times)
+
+sha256 hash: f0be539535ac2fb07b3fd6dc8a490e11dac1a948a04a8687452ff4fef1036f13 
