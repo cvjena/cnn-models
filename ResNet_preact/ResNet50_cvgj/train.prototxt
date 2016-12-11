@@ -10,11 +10,6 @@ layer {
     mirror: true
     crop_size: 224
   }
-  data_param {
-    source: "/home/atlas3_ssd/simon/ilsvrc12/train_lmdb/"
-    batch_size: 16
-    backend: LMDB
-  }
   image_data_param {
     source: "/home/atlas2_ssd/simon/ilsvrc12/train.txt"
     batch_size: 16
@@ -33,11 +28,6 @@ layer {
   transform_param {
     mirror: false
     crop_size: 224
-  }
-  data_param {
-    source: "/home/atlas3_ssd/simon/ilsvrc12/val_lmdb/"
-    batch_size: 10
-    backend: LMDB
   }
   image_data_param {
     source: "/home/atlas2_ssd/simon/ilsvrc12/val.txt"
