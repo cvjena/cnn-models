@@ -16,12 +16,12 @@ To evaluate the final model, execute `caffe train --solver test.solver --gpu 0 2
 ## Accuracy on ImageNet
 **Single-crop** error rates on the validation set of the ILSVRC 2012--16 classification task.
 
-| Model             | Top-1 error  (vs. original) |  Top-5 error  (vs. original) |
-| ------------- |-------------|---------|-------------|---------|
-| AlexNet_cvgj     | **39.9%** (vs. 42.6%)      | **18.1%**  (vs. 19.6%)
-| VGG19_cvgj       | **26.9%** (vs. 28.7%)      | **8.8%**  (vs. 9.9%)
-| ResNet10_cvgj    | **36.1%**    | **14.8%**  |
-| ResNet50_cvgj    | **24.6%** (vs. 24.7%)   | **7.6%** (vs. 7.8%)|
+| Model            | Top-1 error  (vs. original) |  Top-5 error  (vs. original) |
+| ---------------- |-----------------------------|-------------------------------|
+| AlexNet_cvgj     | **39.9%** (vs. 42.6%)       | **18.1%**  (vs. 19.6%)
+| VGG19_cvgj       | **26.9%** (vs. 28.7%)       | **8.8%**  (vs. 9.9%)
+| ResNet10_cvgj    | **36.1%**                   | **14.8%**  
+| ResNet50_cvgj    | **24.6%** (vs. 24.7%)       | **7.6%** (vs. 7.8%)
 
 
 ## Convergence plots
