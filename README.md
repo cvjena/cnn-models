@@ -1,7 +1,7 @@
 # CNN Models by CVGJ 
 
 ## Intro
-This repository contains convolutional neural network (CNN) models trained on ImageNet by Marcel Simon at the Computer Vision Group Jena (CVGJ) using the Caffe framework. Each model is in a separate subfolder and contains everything needed to reproduce the results. This repository focuses currently contains the batch-normalization-variants of AlexNet and VGG19 as well as the training code for Residual Networks (Resnet). 
+This repository contains convolutional neural network (CNN) models trained on ImageNet by Marcel Simon at the Computer Vision Group Jena (CVGJ) using the Caffe framework as published in the accompanying [technical report](https://arxiv.org/abs/1612.01452 "ImageNet pre-trained models with batch normalization by Marcel Simon et al on arxiv."). Each model is in a separate subfolder and contains everything needed to reproduce the results. This repository focuses currently contains the batch-normalization-variants of AlexNet and VGG19 as well as the training code for Residual Networks (Resnet). 
 
 ## How to use
 **No mean subtraction is required** for the pre-trained models! We have a batch-normalization layer which basically does the same. 
@@ -24,17 +24,6 @@ To evaluate the final model, execute `caffe train --solver test.solver --gpu 0 2
 | ResNet50_cvgj    | **24.6%** (vs. 24.7%)       | **7.6%** (vs. 7.8%)
 
 
-## Convergence plots
-
-### AlexNet_cvgj 
-![Convergence plot of AlexNet with batch normalization](AlexNet_cvgj/convergence.png)
-
-### VGG19_cvgj 
-![Convergence plot of AlexNet with batch normalization](VGG19_cvgj/convergence.png)
-
-### ResNet10_cvgj 
-![Convergence plot of AlexNet with batch normalization](ResNet_preact/ResNet10_cvgj/convergence.png)
-
 
 ## Citation
 Please cite the following [technical report](https://arxiv.org/abs/1612.01452 "ImageNet pre-trained models with batch normalization by Marcel Simon et al on arxiv.") if our models helped your research:
@@ -49,3 +38,27 @@ Please cite the following [technical report](https://arxiv.org/abs/1612.01452 "I
 ```
 
 The report also contains an overview and analysis of the models shown here.
+
+## Appendix: convergence plots
+
+### AlexNet_cvgj 
+![Convergence plot of AlexNet with batch normalization](AlexNet_cvgj/convergence.png)
+
+### VGG19_cvgj 
+![Convergence plot of AlexNet with batch normalization](VGG19_cvgj/convergence.png)
+
+### ResNet10_cvgj 
+![Convergence plot of AlexNet with batch normalization](ResNet_preact/ResNet10_cvgj/convergence.png)
+
+### Further details
+Please see the accompanying [technical report](https://arxiv.org/abs/1612.01452 "ImageNet pre-trained models with batch normalization by Marcel Simon et al on arxiv.") for further information about the models and the training procedure:
+
+
+```
+@article{simon2016cnnmodels,
+  Author = {Simon, Marcel and Rodner, Erik and Denzler, Joachim},
+  Journal = {arXiv preprint arXiv:1612.01452},
+  Title = {ImageNet pre-trained models with batch normalization},
+  Year = {2016}
+}
+```
