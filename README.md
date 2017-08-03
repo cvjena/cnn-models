@@ -8,7 +8,7 @@ This repository contains convolutional neural network (CNN) models trained on Im
 
 The pre-trained models can be obtained by the download link written in `model_download_link.txt`. 
 
-If you want to train on your own dataset, simply execute `caffe train --solver train.solver --gpu 0 2> train.log` to start the training and write the output to the log file `train.log`.
+If you want to train on your own dataset, simply execute `caffe train --solver train.solver --gpu 0 2> train.log` to start the training and write the output to the log file `train.log`. Please note, that we pre-scaled all images of the dataset such that the smaller side has a length of 256 pixels while keeping the aspect ratio. You can use `convert input.jpg -resize 256x256^ output.jpg` to convert the images using the command line. 
 
 To evaluate the final model, execute `caffe train --solver test.solver --gpu 0 2> test.log`.
 
