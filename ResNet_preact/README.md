@@ -25,7 +25,7 @@ To evaluate the final model, execute `caffe train --solver test.solver --gpu 0 2
 **Single-crop** error rates on the validation set of the ILSVRC 2012--16 classification task.
 
 | Model             | Top-1 error  (vs. original) |  Top-5 error  (vs. original) |
-| ------------- |-------------|---------|-------------|---------|
+|:-------------|:-------------|:---------|
 | ResNet10_cvgj    | **36.1%**    | **14.8%**  |
 | ResNet50_cvgj    | **24.6%** (vs. 24.7%)   | **7.6%** (vs. 7.8%)|
 
