@@ -62,3 +62,6 @@ Please see the accompanying [technical report](https://arxiv.org/abs/1612.01452 
   Year = {2016}
 }
 ```
+
+### License and support
+The models are released under BSD 2-clause license allowing both academic and commercial use. I would appreciate if you give credit to this work by citing our paper in academic works and referencing to this Github repository in commercial works. If you need any support, please open an issue or contact [Marcel Simon](https://marcelsimon.com/).
